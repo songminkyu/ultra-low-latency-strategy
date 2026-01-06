@@ -1,0 +1,30 @@
+{
+    "name": "phase-jetstream",
+    "version": "1.0.0",
+    "description": "NATS JetStream 영속성 메시징 학습 프로젝트",
+    "type": "module",
+    "scripts": {
+        "section_2:pub:sub": "node ./src/section_2/pub.sub.js",
+        "section_2:request:reply": "node ./src/section_2/request.reply.js",
+        "section_2:queue:group": "node ./src/section_2/queue.group.js",
+        "section_2:routing": "node ./src/section_2/routing.js",
+        "section_4:config:listener": "node ./src/section_4/config.listener.js",
+        "section_4:jetStream:connection": "node ./src/section_4/jetStream.connection.js",
+        "section_4:push:consumer": "node ./src/section_4/push.consumer.js",
+        "section_4:pull:consumer": "node ./src/section_4/pull.consumer.js",
+        "section_5:kv:bucket": "node ./src/section_5/kv.bucket.js",
+        "section_5:object:store": "node ./src/section_5/object.store.js"
+    },
+    "keywords": [
+        "nats",
+        "jetstream",
+        "messaging",
+        "persistence",
+        "streaming"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "nats": "^2.20.0"
+    }
+}
